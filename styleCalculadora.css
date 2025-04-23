@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&display=swap');
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.resultadoBox {
+    font-size: 30px;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnOperaciones {
+    font-size: 15px;
+    height: 30px;
+    width: 30px;
+    background-color: #8fb996;
+    border: 1px solid #7a9c80;
+    margin-left: 2px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.btnOperaciones:hover {
+    background-color: #b1eaba;
+}
+
+#clear {
+    background-color: #a4133c;
+    color: #fff;
+    border: #901135;
+}
+
+#clear:hover {
+    background-color: #a93d5c;
+}
+
+.numberInputs {
+    margin-bottom: 20px;
+}
+
+
+.back {
+    padding: 8px;
+    font-size: 12px;
+    background-color: #a9def9;
+    border: solid 1px #000;
+    cursor: pointer;
+    margin-top: 50px;
+}
